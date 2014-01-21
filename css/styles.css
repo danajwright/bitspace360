@@ -112,9 +112,19 @@ footer {
 	color: #3B5998;
 }
 
+.meetup img {
+	width: 30%;
+	display: block;
+	margin: auto;
+}
+
+.meetup p {
+	margin-top: 2em;
+}
+
 .fluid-wrapper {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
+  padding-bottom: 63%; /* 16:9 */
   height: 0;
 }
 
