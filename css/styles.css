@@ -34,6 +34,30 @@ div.band .columns {
 	padding-bottom: 1em;
 }
 
+.navbar-custom {
+	background-color: black;
+  opacity: .90;
+  height: 1em;
+}
+
+.navbar-collapse-custom {
+	background-color: black;
+}
+
+.nav-right-custom {
+	font-size: .69em;
+}
+
+.nav-left-custom li a {
+	font-size: .69em;
+}
+
+.navbar-toggle span {
+	font-size: 24px;
+	font-weight: 400;
+}
+
+
 header.band {
 	background-image:url(../img/background.png);
 	color: white;
