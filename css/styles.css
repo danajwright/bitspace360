@@ -48,8 +48,14 @@ div.band .columns {
 	font-size: .69em;
 }
 
-.nav-left-custom li a {
+.nav-left-custom li {
+	padding-top: 5px;
 	font-size: .69em;
+	color: #999999;
+}
+
+.nav-left-custom li span {
+	color: #999999;
 }
 
 .navbar-toggle span {
