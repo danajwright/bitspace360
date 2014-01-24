@@ -72,8 +72,14 @@ header.band {
 }
 
 
-h1, h2, h3 {
+h1, h3 {
 	font-family: 'PT Serif', serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
 	text-align: center;
 }
@@ -85,9 +91,9 @@ header.band h1 {
 }
 
 h2 {
-	font-size: 1.6em;
+	font-size: 1.9em;
 	margin-top: 1.5em;
-	margin-bottom: 1.5em;
+	margin-bottom: .5em;
 }
 
 h3 {
@@ -142,19 +148,28 @@ footer {
 	color: #3B5998;
 }
 
-.meetup img {
-	width: 30%;
-	display: block;
+.crypto-header {
+	padding-bottom: 0;
+}
+
+.main-icons h3 {
+	text-align: center;
+}
+
+.main-icons img {
+	width: 70%;
 	margin: auto;
+	display: block;
 }
 
 .meetup p {
 	margin-top: 0;
+	padding-left: 1em;
 }
 
 .fluid-wrapper {
   position: relative;
-  padding-bottom: 63%; /* 16:9 */
+  padding-bottom: 66%; /* 16:9 */
   height: 0;
 }
 
@@ -179,7 +194,6 @@ footer {
 
 	div.band .columns {
 		padding-top: 2em;
-		padding-bottom: 2em;
 	}
 
 	header.band {
