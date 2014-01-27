@@ -12,7 +12,7 @@ body {
 	color: #353738;
 }
 
-hr {
+.hr-body {
 	margin: 1em 0;
 	height: 1px;
 	background: #d3d3d3;
@@ -136,18 +136,6 @@ footer {
 	margin: 0 1em;
 }
 
-.social-meetup {
-	color: #E36316;
-}
-
-.social-twitter {
-	color: #c5376d;
-}
-
-.social-facebook {
-	color: #3B5998;
-}
-
 .crypto-header {
 	padding-bottom: 0;
 }
@@ -162,7 +150,7 @@ footer {
 	display: block;
 }
 
-.meetup p {
+.meetup-map-txt p {
 	margin-top: 0;
 	padding-left: 1em;
 }
@@ -183,6 +171,46 @@ footer {
   border: 1px solid #C3C3C3;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
 }
+
+footer {
+	margin-top: 2em;
+	padding-top: 1em;
+	text-align: left;
+	background-color: black;
+}
+
+footer p {
+	color: #cfcfcf;
+	line-height: 16px;
+	font-size: 12px;
+}
+
+footer h3 {
+	margin-top: 2em;
+	padding: 0;
+	font-size: 1.4em;
+	text-align: left;
+	color: #cfcfcf;
+}
+
+footer #twitter-h3 {
+	padding-bottom: 0;
+	margin-bottom: .4em;
+}
+
+
+.footer-hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#twitter-ticker {
+	width: 100%;
+	margin: auto;
+}
+
 
 /*as we don't haver many media queries, we'll stick them all here*/
 @media only screen and (min-width: 767px) {
@@ -207,10 +235,6 @@ footer {
 
 	a.button {
 		padding: .75em 1.5em;
-	}
-
-	footer {
-		text-align: left;
 	}
 
 	.last {

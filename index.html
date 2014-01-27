@@ -9,7 +9,6 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/fluid_skeleton.css">
 	<link rel="stylesheet" href="css/bs-css/bootstrap.css">
-	<link rel="stylesheet" href="css/twitter.css">
 
 
 	<!-- Favicons -->
@@ -33,7 +32,7 @@
 			<ul class="nav navbar-nav navbar-right nav-right-custom">
 				<li><a href="#">MeetUp+</a></li>
 				<li><a href="#">Twitter+</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="#">BTC/LTC Accepted Here</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-left nav-left-custom">
 				<li>USD/BTC: $<span id="price"></span></li>
@@ -87,9 +86,9 @@
 
 		</div><!--/ container-->
 
-		<hr>
+		<hr class="hr-body">
 
-		<div class="container">
+		<div class="container meetup">
 
 			<div class="columns ten">
 
@@ -101,7 +100,7 @@
 
 			</div>
 
-			<div class="columns six meetup map-txt">
+			<div class="columns six meetup-map-txt">
 
 				<p>
 					<strong>Bitspace360</strong><br>
@@ -115,76 +114,108 @@
 
 		</div><!--/ container-->
 
-	</div><!--/ main-->
+<!-- MINING container -->
 
-	<footer class="band main">
+		<hr class="hr-body">
 
-		<hr>
+		<div class="container mining">
 
-<!-- Twitter container, hidden by CSS and shown if JS is present -->
+			<div class="columns six meetup-map-txt">
 
-	<div class="container">
+				<p>
+					<b>Mining</b> is what's up. After the avalanche, it took us a week to
+					climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out.Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man.
+				</p>
 
-		<div class="columns twelve">
+			</div>
 
-			<div id="twitter-ticker">
+			<div class="columns ten">
 
-		    <div id="top-bar">
+				<div class="fluid-wrapper">
 
-			    <!-- This contains the title and icon -->
+					<img src="img/litecoin-miner.png" width="100%"></img>
 
-			    <div id="twitIcon"><img src="img/twitter_64.png" width="64" height="64" alt="Twitter icon" /></div>
+				</div>
 
-			    <!-- The twitter icon -->
-
-			    <h2 class="tut">My tweets</h2>
-
-			    <!-- Title -->
-
-		    </div>
-
-		    <div id="tweet-container"><img id="loading" src="img/loading.gif" width="16" height="11" alt="Loading.." /></div>
-
-		    <!-- The loading gif animation - hidden once the tweets are loaded -->
-
-		    <div id="scroll"></div>
-
-		    <!-- Container for the tweets -->
-
-		  </div>
-
-		</div><!--/ column-->
-
-	</div><!--/ container-->
-
-</div>
-
-		<div class="container">
-
-			<div class="columns eight">
-
-				<p>Copyright &copy; Bitspace360 2014</p>
-
-			</div><!--/ column-->
-
-			<div class="columns eight last">
-
-				<p><a class="social-meetup" href="#">MeetUp+</a> <a class="social-twitter" href="#">Twitter+</a> <a class="social-facebook" href="#">Contact</a></p>
-
-			</div><!--/ column-->
+			</div>
 
 		</div><!--/ container-->
 
+	</div><!--/ band-main-->
+
+	<footer class="band main">
 
 		<div class="container">
 
-			<div class="columns sixteen">
+			<div class="columns ten address">
 
-				<p><strong>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you.</strong> But I can't give you this case, it don't belong to me. I've already been through too much shit this morning over this case to hand it over to your dumb ass.</p>
+				<h3>About</h3>
+				<p>But I can't give you this case, it don't belong to me. I've already been through too much shit this morning over this case to hand it over to your dumb ass.</p>
+
+				<h3>BTC/LTC Accepted Here</h3>
+				<script src="http://agilob.net/widget/coin.js"></script>
+				<script>
+				  CoinWidgetCom.go({
+				    wallet_address: "DG58CMWs3o8Tz95WbrQouAev4Xrj5tyb8n",
+			    	currency: "dogecoin",
+			    	counter: "donations",
+			    	alignment: "tl",
+			    	qrcode: true,
+			    	auto_show: false,
+			    	lbl_button: "DOGE",
+			    	lbl_address: "My Dogecoin Address:",
+			    	lbl_amount: "DOGE",
+				  });
+				</script>
+				<script>
+					CoinWidgetCom.go({
+						wallet_address: "1Hk6JzwyyppqnRMixstVggfJcRurEEWe7a",
+						currency: "bitcoin",
+						counter: "amount",
+						alignment: "bl",
+						qrcode: true,
+						auto_show: false,
+						lbl_button: "BTC",
+						lbl_address: "My Bitcoin Address:",
+						lbl_count: "donations",
+						lbl_amount: "BTC",
+					});
+				</script>
+				<script>
+					CoinWidgetCom.go({
+        		wallet_address: "LMqsSp7t3J44y35VkPwhMvF9SBHQC7moqv",
+        		currency: "litecoin",
+        		counter: "amount",
+        		alignment: "bl",
+        		qrcode: true,
+        		auto_show: false,
+        		lbl_button: "LTC",
+        		lbl_address: "My Litecoin Address:",
+        		lbl_count: "donations",
+        		lbl_amount: "LTC",
+					});
+				</script>
 
 			</div><!--/ column-->
 
-			<hr>
+			<div class="columns five offset-by-one">
+
+				<div id="twitter-ticker">
+					<h3 id="twitter-h3">@bitspace360</h3>
+					<a class="twitter-timeline" href="https://twitter.com/gngrdev" data-widget-id="426908931986702337" data-theme="dark" data-link-color="#2682a9"  data-related="twitterapi,twitter" data-chrome="nofooter noborders noheader noscrollbar transparent" data-aria-polite="assertive" avatars="false" data-tweet-limit="1" width="100%" lang="EN"></a>
+
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			  </div>
+
+			</div><!--/ column-->
+
+			<div class="columns sixteen">
+
+			  <hr class="footer-hr">
+
+				<p>&copy;Bitspace360 2014</p>
+
+			</div><!--/ column-->
 
 		</div><!--/ container-->
 
@@ -201,8 +232,6 @@
 		forceHeight: false
 	});
 	</script>
-
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
 </body>
 
