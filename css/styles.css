@@ -181,9 +181,9 @@ footer {
 
 .mining {
 	background-image: linear-gradient(rgb(34, 35, 36), rgb(64, 66, 68));
-	margin-top: 1.6em;
-	padding-bottom: 2em;
-	padding-top: 2em;
+	margin-top: 2.6em;
+	padding-bottom: 2.6em;
+	padding-top: 2.3em;
 	color: #cfcfcf;
 }
 
@@ -206,7 +206,7 @@ footer {
 }
 
 a.mining-button {
-	background: #99612e;
+	background: #d87513;
 	text-align: center;
 	padding: .5em 1em;
 	color: #fff;
@@ -222,7 +222,7 @@ a.mining-button {
 }
 
 a.mining-button:hover {
-	background: #b47b40;
+	background: #e3882e;
 }
 
 .mining-img {
@@ -233,10 +233,13 @@ a.mining-button:hover {
 	margin: auto;
 }
 
-
 .hacking h2 {
-	text-align: left;
-	margin-top: 0;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.hacking-txt {
+	padding-top: 0em;
 }
 
 footer {
