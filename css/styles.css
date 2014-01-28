@@ -283,6 +283,22 @@ footer #twitter-h3 {
 
 
 /*as we don't haver many media queries, we'll stick them all here*/
+
+@media only screen and (max-width: 767px) {
+
+.main-icons {
+	max-width: 33%;
+
+}
+
+.crypto-header h2 {
+	font-size: 2em;
+	line-height: 1em;
+}
+
+
+}
+
 @media only screen and (min-width: 767px) {
 
 	body {
