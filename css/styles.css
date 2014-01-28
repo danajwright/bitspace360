@@ -138,6 +138,10 @@ footer {
 	padding-bottom: 0;
 }
 
+.modal-title {
+	color: #353738;
+}
+
 .main-icons h3 {
 	text-align: center;
 }
@@ -251,8 +255,12 @@ footer {
 
 footer p {
 	color: #cfcfcf;
-	line-height: 16px;
-	font-size: 12px;
+	line-height: 2em;
+	font-size: 13px;
+}
+
+.address h3 {
+	margin-bottom: 0em;
 }
 
 footer h3 {
