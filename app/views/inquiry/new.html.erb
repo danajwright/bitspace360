@@ -1,0 +1,68 @@
+<div class="container">
+  <div class="columns sixteen inquiry">
+    <h2>GET IN TOUCH</h2>
+    <h3>Tell us a bit about yourself and your project</h3>
+      <%= form_for @inquiry, method: "post" do |f| %>
+
+      <div class="field">
+        <%= f.label "Name" %><br>
+        <%= f.text_field :name, :autofocus => true %>
+      </div>
+
+      <div class="field">
+        <%= f.label "Email" %><br>
+        <%= f.text_field :email, :autofocus => true %>
+      </div>
+
+      <div class="field">
+        <%= f.label "Phone number" %><br>
+        <%= f.text_field :phone, :autofocus => true %>
+      </div>
+
+      <div class="field">
+        <%= f.label "General areas of interest" %><br>
+        <%= f.label :dependent, "Mining" %> <%= f.check_box :mining %>
+        <%= f.label :dependent, "Co-working" %> <%= f.check_box :co_working %>
+        <%= f.label :dependent, "Project support" %> <%= f.check_box :project_support %>
+      </div>
+
+      <div class="field">
+        <%= f.label "Details" %><br>
+        <%= f.text_area :details, :autofocus => true %>
+      </div>
+
+      <div class="actions">
+        <input type="submit" id="member-submit" value="Submit">
+      </div>
+
+  </div>
+</div>
+<% end %>
+</div>
+</div>
+
+
+
+<!-- <div class="container">
+  <div class="columns sixteen inquiry">
+    <h2>GET IN TOUCH</h2>
+    <h3>Tell us a bit about yourself and your project</h3>
+    <form>
+      <h4>Name</h4>
+      <input id="name" type="text" name="name"><br>
+      <h4>Email</h4>
+      <input id="email" type="text" name="email"><br>
+      <h4>Phone</h4>
+      <input id="phone" type="text" name="email"><br>
+      <h4 id="interests-header">General areas of interest:</h4>
+      <input id="checkbox" type="checkbox" name="mining" value="true">Mining<br>
+      <input id="checkbox" type="checkbox" name="co_working" value="true">Co-working<br>
+      <input id="checkbox" type="checkbox" name="project_support" value="true">Project support
+      <h4 id="details-header">Details</h4>
+      <textarea rows="3" cols="100%" placeholder="Any further detail you would like to share about your project and goals."></textarea>
+      <input class="button" type="submit" value="Submit">
+    </form>
+  </div>
+</div>
+
+ -->

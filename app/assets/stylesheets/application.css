@@ -1,0 +1,433 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_bootstrap
+ *= require_fluid_skeleton
+ *= require_normalize
+ *= require_styles
+ *= require_self
+ */
+
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700);
+
+html {
+  font: 100%/1.5em 'PT Sans', sans-serif;
+}
+
+body {
+  font-size: 1em; /* 16px / 16px */
+  color: #353738;
+}
+
+.hr-body {
+  margin: 1em 0;
+  height: 1px;
+  background: #d3d3d3;
+  border: none;
+  width: 100%;
+  clear: both;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+div.band .columns {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.navbar-custom {
+  background-color: black;
+  opacity: .90;
+  height: 1em;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar-collapse-custom {
+  background-color: black;
+  width: 100%;
+}
+
+.header-container {
+  width: 100%;
+  margin: auto;
+}
+
+.nav-right-custom {
+  font-size: .69em;
+}
+
+.nav-left-custom li {
+  padding-top: 5px;
+  font-size: .69em;
+  color: #999999;
+}
+
+.nav-left-custom li span {
+  color: #999999;
+}
+
+.navbar-toggle span {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+header.band {
+  background-image:url(background.png);
+  color: white;
+  text-align: center;
+  padding: 10% 0 15% 0;
+}
+
+h1, h3 {
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+header.band h1 {
+  font-size: 3em;
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+
+h2 {
+  font-size: 1.9em;
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+}
+
+h3 {
+  font-size: 1.1em;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+a.button {
+  background: #e33f0c;
+  text-align: center;
+  padding: .5em 1em;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0.2em 0 #ab3009;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+  /*transition cross-browser stuff*/
+  -webkit-transition: background 0.2s ease-out;  /* Safari 3.2+, Chrome */
+  -moz-transition: background 0.2s ease-out;  /* Firefox 4-15 */
+  -o-transition: background 0.2s ease-out;  /* Opera 10.5Ð12.00 */
+  transition: background 0.2s ease-out;  /* Firefox 16+, Opera 12.50+ */
+}
+
+a.button:hover {
+  background: #ab3009;
+}
+
+footer {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.last a {
+  margin: 0 1em;
+}
+
+.crypto-header {
+  padding-bottom: 0;
+}
+
+.modal-title {
+  color: #353738;
+}
+
+#inputName, #inputEmail, #inputPhone {
+  max-width: 300px;
+}
+
+.main-icons h3 {
+  text-align: center;
+}
+
+.main-icons img {
+  width: 70%;
+  margin: auto;
+  display: block;
+}
+
+.meetup-top {
+  margin-bottom: 2em;
+}
+
+.meetup-map-txt p {
+  margin-top: 0;
+  padding-left: 1em;
+}
+
+.meetup-map-txt ul span {
+  color: #428bca;
+  font-size: 1.5em;
+}
+
+.meetup-map-txt ul {
+  list-style-type: none;
+  padding-left: 1em;
+}
+
+.meetup-map-txt li {
+  line-height: 2em;
+}
+
+.fluid-wrapper {
+  position: relative;
+  padding-bottom: 63%; /* 16:9 */
+  height: 0;
+}
+
+.fluid-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #C3C3C3;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mining-top {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.mining {
+  background: linear-gradient(rgb(34, 35, 36), rgb(64, 66, 68));
+  margin-top: 2.6em;
+  padding-bottom: 2.6em;
+  padding-top: 2.3em;
+  color: #cfcfcf;
+}
+
+.mining h2 {
+  text-align: left;
+  margin-top: 0;
+}
+
+.mining-img img {
+  width: 100%;
+}
+
+.mining-txt ul {
+  list-style-type: none;
+  padding-left: 0em;
+}
+
+.mining-txt li {
+  line-height: 2em;
+}
+
+.bullet {
+  font-size: 1.5em;
+}
+
+a.mining-button {
+  background: #d87513;
+  text-align: center;
+  padding: .5em 1em;
+  color: #fff;
+  font-size: .86em;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+
+  /*transition cross-browser stuff*/
+  -webkit-transition: background 0.2s ease-out;  /* Safari 3.2+, Chrome */
+  -moz-transition: background 0.2s ease-out;  /* Firefox 4-15 */
+  -o-transition: background 0.2s ease-out;  /* Opera 10.5Ð12.00 */
+  transition: background 0.2s ease-out;  /* Firefox 16+, Opera 12.50+ */
+}
+
+a.mining-button:hover {
+  background: #e3882e;
+}
+
+.mining-img {
+  padding: none;
+}
+
+.mining-img img {
+  margin: auto;
+}
+
+.hacking h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.hacking p {
+  text-align: center;
+}
+
+.hacking h3 {
+  font-size: 1em;
+  line-height: 1.3em;
+}
+
+.hacking ul {
+  margin-top: 2em;
+  padding-left: 0em;
+}
+
+.hacking li {
+  list-style-type: none;
+  color: #428bca;
+}
+
+.hacking-txt {
+  padding-top: 0em;
+}
+
+.down-aarow {
+  margin-top: 1em;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.center-button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.3em;
+  max-width: 140px;
+}
+
+a.hacking-button {
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+footer {
+  margin-top: 2em;
+  padding-top: 1em;
+  text-align: left;
+  background-color: black;
+}
+
+footer p {
+  color: #cfcfcf;
+  line-height: 2em;
+  font-size: 13px;
+}
+
+.address h3 {
+  margin-bottom: 0em;
+}
+
+footer h3 {
+  margin-top: 2em;
+  padding: 0;
+  font-size: 1.4em;
+  text-align: left;
+  color: #cfcfcf;
+}
+
+footer #twitter-h3 {
+  padding-bottom: 0;
+  margin-bottom: .4em;
+}
+
+
+.footer-hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#twitter-ticker {
+  width: 100%;
+  margin: auto;
+}
+
+
+/*as we don't have many media queries, we'll stick them all here*/
+
+@media only screen and (max-width: 767px) {
+
+.main-icons {
+  max-width: 33%;
+}
+
+.nav-right-custom {
+  font-size: 1em;
+  margin-left: 1em;
+}
+
+.nav-left-custom li{
+  font-size: 1em;
+  margin-left: 2.9em;
+}
+
+.crypto-header h2 {
+  font-size: 2em;
+  line-height: 1em;
+}
+
+
+}
+
+@media only screen and (min-width: 767px) {
+
+  body {
+    font-size: 1.125em; /* 18px / 16px */
+    line-height: 1.7em;
+  }
+
+  div.band .columns {
+    padding-top: 2em;
+  }
+
+  header.band {
+    background-image:url(background.png);
+    background-size: 100%;
+  }
+
+  header.band h1 {
+    font-size: 3.25em; /*52 / 16*/
+  }
+
+  a.button {
+    padding: .75em 1.5em;
+  }
+
+  .last {
+    text-align: right;
+  }
+
+}

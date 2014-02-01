@@ -1,0 +1,136 @@
+
+
+.inquiry {
+  margin-top: 2em;
+}
+
+.inquiry h2 {
+  text-align: left;
+  font-size: 2.6em;
+}
+
+.inquiry h3 {
+  text-align: left;
+  font-size: 1.6em;
+  text-transform: none;
+  margin-bottom: 1.3em;
+}
+
+form h4 {
+  text-align: left;
+  font-size: .8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+
+#name, #email, #phone {
+  background-color: #f2f2f2;
+  font-size: 1.35rem;
+  outline: none;
+  border: none;
+  color: #222;
+  display: block;
+  margin: 0 0 1rem 0;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0em;
+  margin-left: 0px;
+  padding: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  width: 100%;
+  max-width: 20em;
+  -webkit-transition: color 0.15s ease-in-out;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.15s;
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-delay: initial;
+  -moz-transition: color 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+  transition-property: color;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+}
+
+#phone {
+  margin-bottom: 1em;
+}
+
+#interests-header {
+  margin-bottom: .8em;
+}
+
+input[type="checkbox"] {
+  margin-right: 1em;
+  margin-top: 0em;
+}
+
+#details-header {
+  margin-top: 2.5em;
+  margin-bottom: .5em;
+}
+
+textarea {
+  background-color: #f2f2f2;
+  font-family: "News706BT-RomanC",Georgia;
+  font-size: 1.35rem;
+  outline: none;
+  border: none;
+  color: #222;
+  display: block;
+  margin: 0 0 1rem 0;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 1rem;
+  margin-left: 0px;
+  padding: 1rem;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  max-width: 39em;
+  -webkit-transition: color 0.15s ease-in-out;
+  -webkit-transition-property: color;
+  -webkit-transition-duration: 0.15s;
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-delay: initial;
+  -moz-transition: color 0.15s ease-in-out;
+  -o-transition: color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out;
+  transition-property: color;
+  transition-duration: 0.15s;
+  transition-timing-function: ease-in-out;
+  transition-delay: initial;
+}
+
+.button {
+  background: #e33f0c;
+  text-align: center;
+  padding: .5em 1em;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 0.2em 0 #ab3009;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  border: none;
+
+  /*transition cross-browser stuff*/
+  -webkit-transition: background 0.2s ease-out;  /* Safari 3.2+, Chrome */
+  -moz-transition: background 0.2s ease-out;  /* Firefox 4-15 */
+  -o-transition: background 0.2s ease-out;  /* Opera 10.5Ð12.00 */
+  transition: background 0.2s ease-out;  /* Firefox 16+, Opera 12.50+ */
+}
+
+.button:hover {
+  background: #ab3009;
+}
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bitspace360</title>
+  <%= stylesheet_link_tag "application" %>
+  <%= csrf_meta_tags %>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Hide Safari on iPhone -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <!-- 16x16 favicon -->
+  <%= favicon_link_tag('favicon.ico') %>
+  <!-- Apple homescreen icons -->
+  <%= favicon_link_tag('homescreen-icon-57.png', rel: 'apple-touch-icon', type: 'image/png',  sizes: "57x57") %>
+  <%= favicon_link_tag('homescreen-icon-72.png', rel: 'apple-touch-icon', type: 'image/png', sizes: "72x72") %>
+  <%= favicon_link_tag('homescreen-icon-114.png', rel: 'apple-touch-icon', type: 'image/png', sizes: "114x114") %>
+  <%= favicon_link_tag('homescreen-icon-144.png', rel: 'apple-touch-icon', type: 'image/png', sizes: "144x144") %>
+</head>
+
+<div class="navbar navbar-inverse navbar-fixed-top navbar-custom">
+  <div class="container header-container">
+    <span class="navbar-brand"><a href="/">Bitspace360</a></span>
+    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+      <span class = "icon-bar"></span>
+      <span class = "icon-bar"></span>
+      <span class = "icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse navHeaderCollapse navbar-collapse-custom">
+      <ul class="nav navbar-nav navbar-right nav-right-custom">
+        <li><a href="#">MeetUp+</a></li>
+        <li><a href="#">Twitter+</a></li>
+        <li><a href="#">Support Us</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-left nav-left-custom">
+        <li>USD/BTC: $<span id="price"></span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<body>
+
+<%= yield %>
+
+</body>
+
+<footer class="band main">
+
+  <div class="container">
+
+    <div class="columns ten address">
+
+      <h3>About</h3>
+      <p>Bitspace360 is co-working space for bitcoin related businesses and crypto-entrepreneurs. We are home for community activities and host various meetups for developers who embrace decentralized systems.</p>
+
+      <h3>Support Bitspace360</h3>
+      <p>We greatfully accept donations of BTC, LTC and DOGE.<br>
+         <a href="/pages/donate">Donate here →</a>
+      </p>
+
+    </div><!--/ column-->
+
+    <div class="columns five offset-by-one">
+
+      <div id="twitter-ticker">
+        <h3 id="twitter-h3">@bitspace360</h3>
+        <a class="twitter-timeline" href="https://twitter.com/gngrdev" data-widget-id="427857405687234560" data-theme="dark" data-link-color="#2682a9"  data-related="twitterapi,twitter" data-chrome="nofooter noborders noheader noscrollbar transparent" data-aria-polite="assertive" avatars="false" data-tweet-limit="1" width="100%" lang="EN"></a>
+
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+      </div>
+
+      <div id="twitter-button">
+        <a href="https://twitter.com/BitSpace360" class="twitter-follow-button" data-show-count="false">Follow @BitSpace360</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+        </script>
+      </div>
+
+    </div><!--/ column-->
+
+    <div class="columns sixteen">
+
+      <hr class="footer-hr">
+
+      <p>&copy;Bitspace360 2014</p>
+
+    </div><!--/ column-->
+
+  </div><!--/ container-->
+
+</footer><!--/ main-->
+
+<%= javascript_include_tag "application" %>
+  <script type="text/javascript">
+    skrollr.init({
+      forceHeight: false
+    });
+  </script>
+
+</html>

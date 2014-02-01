@@ -1,0 +1,46 @@
+
+.donate h2 {
+  margin-top: 2em;
+  text-align: left;
+  font-size: 2.6em;
+}
+
+.donate p {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+}
+
+.donate h3 {
+  text-align: left;
+  font-size: 1.6em;
+  text-transform: none;
+}
+
+.donate h4 {
+  text-align: left;
+  font-size: .9em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0em;
+}
+
+.coin {
+  background-color: #f2f2f2;
+  display: relative;
+  overflow: hidden;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  max-width: 828px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+
+.txt h4 {
+  margin-top: 0em;
+}
+
+.qr img {
+  width: 100%;
+  max-width: 230px
+}
