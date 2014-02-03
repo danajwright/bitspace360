@@ -1,5 +1,26 @@
 
 
+//SCROLL TO ANCHOR
+
+function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+$("#meetup").click(function() {
+   scrollToAnchor('meetup');
+});
+
+$("#mining").click(function() {
+   scrollToAnchor('mining');
+});
+
+$("#hacking").click(function() {
+   scrollToAnchor('hacking');
+});
+
+
+
 //SHOW FORM SUBMIT CONFIRM FLASH
 
 window.setTimeout("closeFlashNotice();", 4000);
