@@ -16,7 +16,7 @@
   margin-bottom: 1.3em;
 }
 
-form h4 {
+.field label {
   text-align: left;
   font-size: .8em;
   text-transform: uppercase;
@@ -25,7 +25,34 @@ form h4 {
   margin-top: 0em;
 }
 
-#name, #email, #phone {
+.details-field label {
+  text-align: left;
+  font-size: .8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0em;
+  margin-top: 1.5em;
+}
+
+.interest-field h4 {
+  text-align: left;
+  font-size: .8em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 0em;
+  margin-top: 2em;
+  margin-bottom: .3em;
+}
+
+.interest-field label {
+  text-align: left;
+  font-size: 1em;
+  font-weight: none;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+
+#inquiry_name, #inquiry_email, #inquiry_phone {
   background-color: #f2f2f2;
   font-size: 1.35rem;
   outline: none;
@@ -33,9 +60,9 @@ form h4 {
   color: #222;
   display: block;
   margin: 0 0 1rem 0;
-  margin-top: 0px;
+  margin-top: 0em;
   margin-right: 0px;
-  margin-bottom: 0em;
+  margin-bottom: 1em;
   margin-left: 0px;
   padding: 1rem;
   padding-top: 1rem;
@@ -62,8 +89,12 @@ form h4 {
   margin-bottom: 1em;
 }
 
-#interests-header {
+.interests-field label {
   margin-bottom: .8em;
+}
+
+#inquiry_mining label {
+  background-color: red;
 }
 
 input[type="checkbox"] {

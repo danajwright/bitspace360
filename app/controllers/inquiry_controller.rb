@@ -12,7 +12,7 @@ class InquiryController < ApplicationController
     Inquiry.create(:name => params[:name], :email => params[:email], :phone => params[:phone],
     :mining => params[:mining], :co_working => params[:co_working],
     :project_support => params[:project_support])
-    flash[:notice] = "Form submitted successfully"
+    flash[:notice] = "Your form was submitted successfully!  We will contact you within 24 hours."
     redirect_to pages_index_path
   end
 

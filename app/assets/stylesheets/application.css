@@ -20,12 +20,12 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700);
 
 html {
-  font: 100%/1.5em 'PT Sans', sans-serif;
+  font: 100%/1.5em sans-serif;
 }
 
 body {
   font-size: 1em; /* 16px / 16px */
-  color: #353738;
+  color: black;
 }
 
 .hr-body {
@@ -59,6 +59,7 @@ div.band .columns {
 .navbar-brand a {
   text-decoration: none;
   color: #fff;
+  font-family: sans-serif;
 }
 
 .navbar-collapse-custom {
@@ -90,11 +91,20 @@ div.band .columns {
   font-weight: 400;
 }
 
+#flash-notice {
+  margin-top: -2.2em;
+  position: absolute;
+  background-color: #419325;
+  opacity: .70;
+  width: 100%;
+  font-size: .86em;
+}
+
 header.band {
   background-image:url(background.png);
   color: white;
   text-align: center;
-  padding: 10% 0 15% 0;
+  padding: 7% 0 15% 0;
 }
 
 h1, h3 {
@@ -112,6 +122,7 @@ h2 {
 header.band h1 {
   font-size: 3em;
   line-height: 1em;
+  padding-top: .9em;
   margin-bottom: 1em;
 }
 
@@ -150,11 +161,6 @@ a.button {
 
 a.button:hover {
   background: #ab3009;
-}
-
-footer {
-  font-size: 0.8em;
-  text-align: center;
 }
 
 .last a {
@@ -229,7 +235,7 @@ footer {
 }
 
 .mining {
-  background: linear-gradient(rgb(34, 35, 36), rgb(64, 66, 68));
+  background: rgb(34, 35, 36); /*linear-gradient rgb(64, 66, 68), */
   margin-top: 2.6em;
   padding-bottom: 2.6em;
   padding-top: 2.3em;
@@ -318,6 +324,7 @@ a.mining-button:hover {
   margin-top: 1em;
   font-size: 1.3em;
   text-align: center;
+  color: #428bca;
 }
 
 .center-button {
@@ -342,7 +349,7 @@ footer {
 footer p {
   color: #cfcfcf;
   line-height: 2em;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .address h3 {
@@ -352,7 +359,7 @@ footer p {
 footer h3 {
   margin-top: 2em;
   padding: 0;
-  font-size: 1.4em;
+  font-size: 1.3em;
   text-align: left;
   color: #cfcfcf;
 }
@@ -379,6 +386,10 @@ footer #twitter-h3 {
 /*as we don't have many media queries, we'll stick them all here*/
 
 @media only screen and (max-width: 767px) {
+
+.fluid-wrapper {
+  display: none;
+}
 
 .main-icons {
   max-width: 33%;

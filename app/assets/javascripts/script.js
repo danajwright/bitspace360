@@ -1,4 +1,13 @@
 
+
+//SHOW FORM SUBMIT CONFIRM FLASH
+
+window.setTimeout("closeFlashNotice();", 4000);
+  function closeFlashNotice(){
+    document.getElementById("flash-notice").style.display="none";
+  }
+
+
 // BTC PRICE TICKER
 
 $(function() {
