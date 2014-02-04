@@ -186,7 +186,7 @@ a.button:hover {
 
 #meetup-img {
   background: url(meetup-icon.png) no-repeat center;
-  background-size: 100%;
+  background-size: 80%;
   height: 200px;
   display: block;
 
@@ -199,7 +199,7 @@ a.button:hover {
 
 #meetup-img:hover {
   background: url(meetup-icon-reverse.png) no-repeat center;
-  background-size: 100%;
+  background-size: 80%;
 }
 
 .main-icon-mining h3 {
@@ -209,7 +209,7 @@ a.button:hover {
 
 #mining-img {
   background: url(mining-icon.png) no-repeat center;
-  background-size: 100%;
+  background-size: 80%;
   height: 200px;
   display: block;
 
@@ -222,7 +222,7 @@ a.button:hover {
 
 #mining-img:hover {
   background: url(mining-icon-reverse.png) no-repeat center;
-  background-size: 100%;
+  background-size: 80%;
 }
 
 .main-icon-hacking h3 {
@@ -232,7 +232,7 @@ a.button:hover {
 
 #hacking-img {
   background: url(hack-icon.png) no-repeat center;
-  background-size: 100%;
+  background-size: 80%;
   height: 200px;
   display: block;
 
@@ -245,7 +245,7 @@ a.button:hover {
 
 #hacking-img:hover {
   background: url(hack-icon-reverse.png) no-repeat center;
-  background-size: 100%;
+  background-size: 80%;
 }
 
 
@@ -691,6 +691,10 @@ a.hacking-button {
 
 @media only screen and (min-width: 975px) {
 
+.crypto-header h2 {
+  margin-bottom: 0em;
+}
+
 .main-icon-meetup h3 {
   margin-top: 1em;
 }
@@ -702,6 +706,7 @@ a.hacking-button {
 .main-icon-hacking h3 {
   margin-top: 1em;
 }
+
 
 }
 

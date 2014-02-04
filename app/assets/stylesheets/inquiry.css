@@ -89,6 +89,10 @@
   margin-bottom: 1em;
 }
 
+.required {
+  color: red;
+}
+
 .interests-field label {
   margin-bottom: .8em;
 }

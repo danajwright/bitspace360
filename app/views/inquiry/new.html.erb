@@ -16,17 +16,17 @@
     <% end %>
 
     <div class="field">
-      <%= f.label "Name" %>
+      <%= f.label "Name" %><span class="required">&nbsp;*</span>
       <%= f.text_field :name, :autofocus => true %>
     </div>
 
     <div class="field">
-      <%= f.label "Email" %><br>
+      <%= f.label "Email" %><span class="required">&nbsp;*</span>
       <%= f.text_field :email, :autofocus => true %>
     </div>
 
     <div class="field">
-      <%= f.label "Phone number" %><br>
+      <%= f.label "Phone number" %><span class="required">&nbsp;*</span>
       <%= f.text_field :phone, :autofocus => true %>
     </div>
 
