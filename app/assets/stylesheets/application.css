@@ -16,7 +16,6 @@
  *= require_self
  */
 
-
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700);
 
 html {
@@ -132,6 +131,11 @@ h2 {
   margin-bottom: .5em;
 }
 
+.crypto-header h2 {
+  font-size: 1.6em;
+}
+
+
 h3 {
   font-size: 1.1em;
   font-family: 'PT Sans', sans-serif;
@@ -187,7 +191,7 @@ a.button:hover {
 #meetup-img {
   background: url(meetup-icon.png) no-repeat center;
   background-size: 80%;
-  height: 200px;
+  height: 160px;
   display: block;
 
   /*transition cross-browser stuff*/
@@ -210,7 +214,7 @@ a.button:hover {
 #mining-img {
   background: url(mining-icon.png) no-repeat center;
   background-size: 80%;
-  height: 200px;
+  height: 160px;
   display: block;
 
   /*transition cross-browser stuff*/
@@ -233,7 +237,7 @@ a.button:hover {
 #hacking-img {
   background: url(hack-icon.png) no-repeat center;
   background-size: 80%;
-  height: 200px;
+  height: 160px;
   display: block;
 
   /*transition cross-browser stuff*/
@@ -445,7 +449,7 @@ footer #twitter-h3 {
 
 /*as we don't have many media queries, we'll stick them all here*/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 766px) {
 
 .fluid-wrapper {
   display: none;
@@ -709,5 +713,3 @@ a.hacking-button {
 
 
 }
-
-
