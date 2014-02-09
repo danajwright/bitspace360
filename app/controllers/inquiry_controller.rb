@@ -13,6 +13,7 @@ class InquiryController < ApplicationController
     :mining => params[:mining], :co_working => params[:co_working],
     :project_support => params[:project_support])
     flash[:notice] = "Your form was submitted successfully!  We will contact you within 24 hours."
+    InquiryMailer.inquiry_email(@inquiry).deliver
     redirect_to pages_index_path
   end
 
