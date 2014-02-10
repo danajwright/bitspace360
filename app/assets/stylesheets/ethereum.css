@@ -159,7 +159,7 @@ a.twitter-button {
 }
 
 a.twitter-button:hover {
-  background: #10acee;
+  background: #1099d3;
   text-decoration: none;
 }
 
@@ -183,7 +183,7 @@ a.facebook-button {
 }
 
 a.facebook-button:hover {
-  background: #3b5998;
+  background: #34518c;
   text-decoration: none;
 }
 
@@ -199,4 +199,30 @@ a.facebook-button:hover {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+
+@media all and (max-width: 766px) and (min-width: 0px) {
+
+
+.ethereum h2 {
+  text-align: left;
+  font-size: 2em;
+  margin-top: .1em;
+  line-height: 1.1em;
+}
+
+.sidebar {
+  margin-top: 0em;
+}
+
+.share-button {
+  margin-top: 2em;
+}
+
+hr {
+  visibility: hidden
+}
+
+}
+
 
