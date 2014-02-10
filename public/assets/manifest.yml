@@ -45,9 +45,9 @@ mining-icon.png: mining-icon-cd5ae660bc42e679ce2b398b5e3385d5.png
 mining-icon/index.png: mining-icon-cd5ae660bc42e679ce2b398b5e3385d5.png
 qr.png: qr-c2b81827502b45d356da68696dcbde1a.png
 qr/index.png: qr-c2b81827502b45d356da68696dcbde1a.png
-application.js: application-b0073e1c1ff2956659a01cb88ea12d4f.js
-application/index.js: application-b0073e1c1ff2956659a01cb88ea12d4f.js
-application.css: application-c9cf59f199c303113e6c7e3037abc743.css
-application/index.css: application-c9cf59f199c303113e6c7e3037abc743.css
+application.js: application-3c091f5ee6ce275297dd0c1a4b543d7a.js
+application/index.js: application-3c091f5ee6ce275297dd0c1a4b543d7a.js
+application.css: application-6e1f2b02be7a96dcba234c31d5a473dd.css
+application/index.css: application-6e1f2b02be7a96dcba234c31d5a473dd.css
 jquery.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map
 jquery/index.min.map: jquery.min-6336c5bca4c709e809647cdfcb484d0a.map

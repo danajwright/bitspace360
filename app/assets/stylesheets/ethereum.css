@@ -1,0 +1,202 @@
+
+
+.post {
+  margin-top: 4em;
+  position: relative;
+}
+
+.post ul {
+  display: inline;
+  padding-left: 0em;
+}
+
+.post ul li {
+  display: inline;
+}
+
+.first {
+  margin-bottom: 2em;
+}
+
+.ethereum h2 {
+  text-align: left;
+  font-size: 2.5em;
+  margin-top: .1em;
+  line-height: 1em;
+}
+
+.date {
+  display: inline;
+  text-align: left;
+  font-size: 1.1em;
+  text-transform: none;
+  margin-left: 1em;
+  position: absolute;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  -webkit-margin-before: .2em;
+  -webkit-margin-after: 0em;
+}
+
+span.chicklet {
+  background: #e33f0c;
+  text-align: center;
+  padding: .3em .7em;
+  width: 100%;
+  color: #fff;
+  font-size: .7em;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.ethereum h4 {
+  text-align: left;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.2em;
+  text-transform: none;
+  margin-bottom: 0em;
+}
+
+.outline {
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background-color: #f4f4f4;
+  border: 1px solid #C3C3C3;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.resources {
+  margin-top: 1em;
+}
+
+.resources span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.twitter {
+  visibility: hidden
+}
+
+.twitter-timeline {
+  width: 100%;
+}
+
+.sidebar {
+  margin-top: 3.6em;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding-left: 0em;
+}
+
+.share-button {
+  margin-bottom: 1em;
+  min-width: 300px;
+}
+
+a.meetup-button {
+  background: #e51937;
+  text-align: center;
+  padding: .7em 1.3em;
+  width: 100%;
+  color: #fff;
+  font-size: .86em;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+
+  /*transition cross-browser stuff*/
+  -webkit-transition: background 0.2s ease-out;  /* Safari 3.2+, Chrome */
+  -moz-transition: background 0.2s ease-out;  /* Firefox 4-15 */
+  -o-transition: background 0.2s ease-out;  /* Opera 10.5Ð12.00 */
+  transition: background 0.2s ease-out;  /* Firefox 16+, Opera 12.50+ */
+}
+
+a.meetup-button:hover {
+  background: #c51937;
+  text-decoration: none;
+}
+
+
+
+
+a.twitter-button {
+  background: #00acee;
+  text-align: center;
+  padding: .7em 1.3em;
+  width: 100%;
+  color: #fff;
+  font-size: .86em;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+
+  /*transition cross-browser stuff*/
+  -webkit-transition: background 0.2s ease-out;  /* Safari 3.2+, Chrome */
+  -moz-transition: background 0.2s ease-out;  /* Firefox 4-15 */
+  -o-transition: background 0.2s ease-out;  /* Opera 10.5Ð12.00 */
+  transition: background 0.2s ease-out;  /* Firefox 16+, Opera 12.50+ */
+}
+
+a.twitter-button:hover {
+  background: #10acee;
+  text-decoration: none;
+}
+
+
+
+a.facebook-button {
+  background: #3b5998;
+  text-align: center;
+  padding: .7em 1.3em;
+  width: 100%;
+  color: #fff;
+  font-size: .86em;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+
+  /*transition cross-browser stuff*/
+  -webkit-transition: background 0.2s ease-out;  /* Safari 3.2+, Chrome */
+  -moz-transition: background 0.2s ease-out;  /* Firefox 4-15 */
+  -o-transition: background 0.2s ease-out;  /* Opera 10.5Ð12.00 */
+  transition: background 0.2s ease-out;  /* Firefox 16+, Opera 12.50+ */
+}
+
+a.facebook-button:hover {
+  background: #3b5998;
+  text-decoration: none;
+}
+
+
+.sidebar hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sidebar-header {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+

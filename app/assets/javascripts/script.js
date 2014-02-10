@@ -19,6 +19,10 @@ $("#hacking").click(function() {
    scrollToAnchor('hacking');
 });
 
+$("#twitter").click(function() {
+   scrollToAnchor('twitter');
+});
+
 
 
 //SHOW FORM SUBMIT CONFIRM FLASH
