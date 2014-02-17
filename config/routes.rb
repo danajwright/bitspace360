@@ -5,6 +5,8 @@ root :to => "pages#index"
 get "pages/index"
 get "pages/donate"
 get "pages/ethereum_meetup"
+get "pages/blockparty"
+
  # get "inquiry/new"
  # post "inquiry/create"
  match '/inquiry/new', to: "inquiry#new", via: 'get', as: :new_inquiry
