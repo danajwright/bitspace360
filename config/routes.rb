@@ -6,6 +6,8 @@ get "pages/index"
 get "pages/donate"
 get "pages/ethereum_meetup"
 get "pages/blockparty"
+get "pages/bip70"
+
 
  # get "inquiry/new"
  # post "inquiry/create"
